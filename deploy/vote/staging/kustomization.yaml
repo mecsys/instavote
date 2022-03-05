@@ -8,3 +8,7 @@ patchesStrategicMerge:
 replicas:
   - name: vote
     count: 8
+
+images:
+  - name: mecsys/vote
+    newTag: v3
