@@ -8,6 +8,7 @@ metadata:
 spec:
   replicas: 5
   template:
-    containers:
-      - image: mecsys/vote:v3
-        name: vote
+    spec:
+      containers:
+        - image: mecsys/vote:v3
+          name: vote
