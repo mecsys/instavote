@@ -6,5 +6,5 @@ patchesStrategicMerge:
 - deployment.yaml
 
 replicas:
-  - name:
+  - name: vote
     count: 8
