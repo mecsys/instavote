@@ -1,0 +1,26 @@
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+bases:
+- ../base
+patchesStrategicMerge:
+- deployment.yaml
+
+replicas:
+  - name: worker
+    count: 2
+
+images:
+  - name: mecsys/worker
+    newTag: v4
+
+      #commonLabels:
+      #  project: instavote
+      #  env: staging
+
+commonAnnotations:
+  supported-by: "isaacmecchi@gmail.com"
+
+    #configMapGenerator:
+    #  - name: vote-options
+    #    envs: 
+    #      - options.env
