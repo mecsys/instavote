@@ -13,9 +13,9 @@ images:
   - name: mecsys/vote
     newTag: v4
 
-commonLabels:
-  project: instavote
-    #  env: staging
+      #commonLabels:
+      #  project: instavote
+      #  env: staging
 
 commonAnnotations:
   supported-by: "isaacmecchi@gmail.com"
