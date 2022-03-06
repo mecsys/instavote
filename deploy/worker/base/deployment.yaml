@@ -6,7 +6,7 @@ metadata:
     app: worker
   name: worker
 spec:
-  replicas: 4
+  replicas: 1
   selector:
     matchLabels:
       app: worker
@@ -18,7 +18,7 @@ spec:
         app: worker
     spec:
       containers:
-      - image: schoolofdevops/worker:v1
+      - image: schoolofdevops/worker
         name: worker
         resources: {}
 status: {}
