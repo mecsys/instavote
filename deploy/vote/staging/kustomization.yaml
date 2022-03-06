@@ -15,7 +15,7 @@ images:
 
 commonLabels:
   project: instavote
-  env: staging
+    #  env: staging
 
 commonAnnotations:
   supported-by: "isaacmecchi@gmail.com"
