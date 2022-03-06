@@ -11,7 +11,7 @@ replicas:
 
 images:
   - name: mecsys/vote
-    newTag: v4
+    newTag: v5
 
       #commonLabels:
       #  project: instavote
