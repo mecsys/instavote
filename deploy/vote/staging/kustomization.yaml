@@ -13,8 +13,8 @@ images:
   - name: mecsys/vote
     newTag: v4
 
-      #commonLabels:
-  #  project: instavote
+commonLabels:
+  project: instavote
     #  env: staging
 
 commonAnnotations:
