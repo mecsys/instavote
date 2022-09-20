@@ -15,5 +15,5 @@ spec:
         app: vote
     spec:
       containers:
-      - image: mecsys/vote:v4
+      - image: mecsys/vote:v4xyz
         name: vote
