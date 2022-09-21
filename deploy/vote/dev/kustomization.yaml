@@ -17,5 +17,9 @@ images:
 namespace: instavote
 
 commonLabels:
-  app: hello
+  project: instavote
+  env: dev
+
+commonAnnotations:
+  supported-by: "isaacmecchi@gmail.com" 
 
