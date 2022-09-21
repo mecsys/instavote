@@ -14,3 +14,8 @@ images:
   - name: mecsys/vote
     newTag: v5 
 
+namespace: instavote
+
+commonLabels:
+  app: hello
+
