@@ -23,3 +23,6 @@ commonLabels:
 commonAnnotations:
   supported-by: "isaacmecchi@gmail.com" 
 
+configMapGenerator:
+  - name: vote-options
+    env: options.env 
