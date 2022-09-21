@@ -10,7 +10,7 @@ replicas:
   - name: vote
     count: 8
 
-image:
+images:
   - name: mecsys/vote
     newTag: v5 
 
