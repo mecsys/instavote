@@ -6,3 +6,6 @@ patchesStrategicMerge:
 - deployment.yaml
 - service.yaml
 
+replicas:
+  - name: vote
+    count: 8
