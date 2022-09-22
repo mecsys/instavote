@@ -9,10 +9,10 @@ metadata:
     kubernetes.io/ingress.class: "nginx"
 spec:
   ingressClassName: "nginx"
-  #tls:
-  #- hosts:
-  #  - ci.mecsys.com.br
-  #  secretName: instavote-tls
+  tls:
+  - hosts:
+    - ci.mecsys.com.br
+    secretName: instavote-tls
   rules:
   - host: ci.mecsys.com.br
     http:
