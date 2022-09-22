@@ -4,9 +4,16 @@ metadata:
   creationTimestamp: null
   name: vote
   namespace: instavote
+  annotations:
+    cert-manager.io/cluster-issuer: "letsencrypt"  
+    kubernetes.io/ingress.class: "nginx"
 spec:
-  ingressClassName: default
+  ingressClassName: "nginx"
   rules:
+  tls:
+  - hosts:
+    - ci.mecsys.com.br
+    secretName: instavote-tls
   - host: ci.mecsys.com.br
     http:
       paths:
