@@ -8,7 +8,7 @@ patchesStrategicMerge:
 
 replicas:
   - name: vote
-    count: 8
+    count: 1
 
 images:
   - name: mecsys/vote
